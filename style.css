@@ -1,1 +1,55 @@
 
+.produit {
+    color: coral;
+    font-style: italic;
+
+}
+
+.reference {
+    color: black;
+    font-style: italic;
+    background-color: grey;
+}
+
+.general {
+    color: blue;
+    font-weight: bold;
+    text-decoration-line: underline;
+}
+
+#parti3 {
+    color: blue;
+    font-size: small;
+    background-color: #C0C0C0;
+}
+
+#parti1 + h3 {
+    color: red;
+    text-transform: capitalize;
+}
+
+blockquote > p:first-letter {
+    text-transform: capitalize;
+    color: green;
+    font-weight: bold;
+    font-family: fantasy;
+    text-indent: 20px;
+}
+
+* {
+    font-family: "Verdana", Arial, monospace;
+}
+
+h1, h2, h3 {
+    font-family: Arial, monospace;
+}
+
+th {
+    font-variant: small-caps;
+    text-decoration-line: underline;
+}
+
+.produit .reference .general:first-letter {
+    text-transform: capitalize;
+}
+
